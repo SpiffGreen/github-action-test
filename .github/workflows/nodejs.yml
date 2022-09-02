@@ -29,5 +29,4 @@ jobs:
     - run: npm i
     - run: npm run build --if-present
     - run: npm test --if-present
-    - name: Deploy
-        run: ls -la
+    - run: ls -la
